@@ -3,9 +3,9 @@
 2. Sources:
 
    (a) Original owners of database:
-        Prof. Dr. R¸diger Schulz-Wendtland
+        Prof. Dr. R√ºdiger Schulz-Wendtland
         Institute of Radiology, Gynaecological Radiology, University Erlangen-Nuremberg
-        Universit‰tsstraﬂe 21-23
+        Universit√§tsstra√üe 21-23
         91054 Erlangen, Germany
         
    (b) Donor of database:
