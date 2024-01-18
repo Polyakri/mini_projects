@@ -1,22 +1,45 @@
-This is a Projects assigned for the Machine Learning lesson, for the Master in Artificial Intelligence, in the department of Computer Science of Aristotle University of Thessaloniki.
+Rock Paper Scissors Image Recognition Project
+Overview
 
-The project was to create a model that could recognize images of Rock Paper & Scissors and play the winning hand according to the known game.
+This GitHub project focuses on creating a robust image recognition model for the classic game of Rock, Paper, Scissors. The objective is to develop a model that can accurately recognize and respond with the winning hand gesture based on input images.
+Dataset
 
-Dataset downloaded from https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
+The dataset used for this project is sourced from Kaggle. It contains a variety of images for Rock, Paper, and Scissors gestures.
+Steps:
 
-You might need to change folder or directory names.
+    Read and Create Dataset:
+        Download the dataset from the provided Kaggle link.
+        Organize the dataset and ensure proper folder structure.
+        Read the data and preprocess it for model training.
 
-After training different ANNs and CNN I picked the one with the highest accuracy with 99.5% . The results of my models are shown in the CSV files.
+    ANNs with PCA (Principal Component Analysis):
+        Implement Artificial Neural Networks (ANNs) with PCA for dimensionality reduction.
+        Train multiple ANN models with varying parameters.
+        Evaluate and compare their accuracies using the provided CSV files.
 
-The first step is reading the data and creating the dataset.
+    Model Training:
+        Train different ANN models without PCA, experimenting with architectures and hyperparameters.
+        Choose the model with the highest accuracy for further evaluation.
 
-Steps 2 and 3 are for the ANNs PCA and Model Training so to pick the best accuracy one
+    Convolutional Neural Network (CNN) Training:
+        Implement and train a Convolutional Neural Network on the original image data.
+        Evaluate the CNN's performance and compare it with the best-performing ANN.
 
-Step 4 is training a CNN, from the original data.
+    Game Simulation:
+        Develop a game simulation where an agent selects an image.
+        Introduce noise to the selected image.
+        Utilize the trained model to predict the image and determine the winning hand gesture.
 
-After that you can find the best accuracy algorithm and apply it to the game. 
-Note I trained about 3000 models to find the best
+Results
 
-Step 4 is the actual game, when an agent picks an image, adds noise to it, and our model is trying to predict the image so it can win the game.
+After extensive experimentation with around 3000 models, the best-performing model achieved an accuracy of 99.5%. The evaluation results are provided in the CSV files within the project.
 
-Author: Polydoros Akritidis
+
+Author
+
+    Polydoros Akritidis
+
+
+Feel free to reach out to the author for any questions or collaborations.
+
+Happy Coding!
