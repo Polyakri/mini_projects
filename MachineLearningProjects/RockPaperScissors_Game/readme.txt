@@ -14,7 +14,8 @@ Steps 2 and 3 are for the ANNs PCA and Model Training so to pick the best accura
 
 Step 4 is training a CNN, from the original data.
 
-After that you can find the best accuracy algorithm and apply it to the game
+After that you can find the best accuracy algorithm and apply it to the game. 
+Note I trained about 3000 models to find the best
 
 Step 4 is the actual game, when an agent picks an image, adds noise to it, and our model is trying to predict the image so it can win the game.
 
