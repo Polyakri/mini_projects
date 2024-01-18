@@ -5,3 +5,5 @@ The project was to create a model that could recognize images of Rock Paper & Sc
 Dataset downloaded from https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors
 
 You might need to change folder or directory names.
+
+After training different ANNs and CNN I picked the one with the highest accuracy with 99.5% . The results of my models are shown in the CSV files.
